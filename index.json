@@ -1,0 +1,115 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Da Feiyu DSH plugins",
+    "zh": "大肥鱼的 DSH 插件"
+  },
+  "description": {
+    "en": "Bundles built for DeepSeek Harness: push messages across sessions, read images through a vision model.",
+    "zh": "给 DeepSeek Harness 用的两个组合包：跨会话推送、借多模态模型识图。"
+  },
+  "metadata": {
+    "categories": {
+      "tools": {
+        "title": {
+          "en": "Tools",
+          "zh": "工具"
+        }
+      }
+    },
+    "labels": {
+      "experimental": {
+        "title": {
+          "en": "Experimental",
+          "zh": "实验性"
+        }
+      }
+    },
+    "sortKeys": {
+      "added": {
+        "title": {
+          "en": "Added",
+          "zh": "添加时间"
+        },
+        "order": "desc"
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-session-push",
+      "title": {
+        "en": "dsh-session-push",
+        "zh": "跨会话推送"
+      },
+      "description": {
+        "en": "Push a message into another DSH session and read back its reply.",
+        "zh": "把一条消息推送到另一个 DSH 会话，并能读回对方的回复。"
+      },
+      "icon": "packages/dsh-session-push/icon.svg",
+      "author": "大肥鱼",
+      "repository": {
+        "url": "https://github.com/JiaMing-yui/dsh-plugins",
+        "directory": "packages/dsh-session-push"
+      },
+      "metadata": {
+        "category": "tools",
+        "keywords": [
+          "会话",
+          "推送",
+          "多 agent",
+          "跨工作区"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793195832,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/JiaMing-yui/dsh-plugins",
+            "commit": "138d953737eefa42636a017cbe8d83584cdc1c00",
+            "path": "packages/dsh-session-push"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-vision",
+      "title": {
+        "en": "dsh-vision",
+        "zh": "识图代理"
+      },
+      "description": {
+        "en": "Describe local images with a vision-capable model for agents that cannot read images.",
+        "zh": "让读不了图的模型调用能读图的多模态模型看图片。"
+      },
+      "icon": "packages/dsh-vision/icon.svg",
+      "author": "大肥鱼",
+      "repository": {
+        "url": "https://github.com/JiaMing-yui/dsh-plugins",
+        "directory": "packages/dsh-vision"
+      },
+      "metadata": {
+        "category": "tools",
+        "keywords": [
+          "识图",
+          "多模态",
+          "视觉"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793195832,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/JiaMing-yui/dsh-plugins",
+            "commit": "138d953737eefa42636a017cbe8d83584cdc1c00",
+            "path": "packages/dsh-vision"
+          }
+        }
+      ]
+    }
+  ]
+}
