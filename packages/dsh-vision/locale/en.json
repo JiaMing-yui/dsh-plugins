@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Vision Proxy",
+    "description": "Adds a describe_image tool that asks a vision-capable model to read local images."
+  }
+}

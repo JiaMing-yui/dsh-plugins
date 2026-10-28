@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Session Push",
+    "description": "Push a message into another DSH session (same or another workspace) and read back its reply."
+  }
+}

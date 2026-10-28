@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "识图代理",
+    "description": "提供一个 describe_image 工具：把本地图片交给能读图的多模态模型，要回中文描述。"
+  }
+}
